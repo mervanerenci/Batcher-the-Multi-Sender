@@ -87,7 +87,7 @@ contract Batcher {
     function calculateFee(
         uint256 _amount,
         uint256 _decimals
-    ) public pure returns (uint256) {
+    ) internal pure returns (uint256) {
         uint256 ust = _amount.mul(10 ** _decimals).mul(5);
         return ust.div(10000);
         
