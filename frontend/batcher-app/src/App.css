@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+}
+
+.fontbody {
+  font-family: "Lunasima", sans-serif;
+}
+
+.white {
+  color: white;
+}
+
+.gray-bg {
+  background-color: lightb;
+}
+
+.minmaxWidth {
+  width: min(490px, 520px);
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.minmaxwid {
+  max-width: 600px;
+}
+
+.otomar {
+  display: flex;
+  justify-content: center;
+}
