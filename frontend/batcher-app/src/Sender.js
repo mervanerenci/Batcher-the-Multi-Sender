@@ -12,10 +12,10 @@ function Sender() {
   const [recipients, setRecipients] = useState([""]);
   const [amounts, setAmounts] = useState([""]);
   const [selectedOptions, setSelectedOptions] = useState();
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
   const optionList = [
     { value: "0xe9DcE89B076BA6107Bb64EF30678efec11939234", label: "USDC" },
@@ -193,7 +193,7 @@ function Sender() {
           </Card.Body>
         </Card>
 
-        <Modal show={show} onHide={handleClose}>
+        {/* <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Transaction(s) sent!</Modal.Title>
           </Modal.Header>
@@ -210,7 +210,7 @@ function Sender() {
               See in etherscan ->
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
       </div>
     </main>
   );
