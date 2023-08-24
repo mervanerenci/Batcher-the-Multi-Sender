@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Container from "react-bootstrap/Container";
 import Select from "react-select";
 import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 import Card from "react-bootstrap/Card";
 import BatcherABI from "./Batcher.json";
 import Web3 from "web3";
