@@ -1,8 +1,8 @@
 # Batcher
 
-_Mumbai Testnet Address : 0x60CDEF31A8F7A179C7C564A34EE55C00D431A2ff_
+You can test the contract on mumbai testnet here :
 
-
+https://xg4ywf.csb.app/
 
 Batcher is a solution built on the Ethereum blockchain that enables the efficient and cost-effective transfer of ERC20 tokens to multiple recipients in a single transaction . This project addresses the need for a streamlined method of distributing tokens to a large number of addresses, saving time and reducing gas costs associated with individual transfers.
 
